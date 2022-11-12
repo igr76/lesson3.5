@@ -36,7 +36,6 @@ public class AvatarController {
     public ResponseEntity<byte[]> readFromDb(@PathVariable long id) {
         Pair<byte[],String> pair = avatarService.readFromDb(id);
         return read(pair);
-
     }
 
     private ResponseEntity<byte[]> read(Pair<byte[], String> pair) {

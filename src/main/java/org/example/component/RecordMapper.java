@@ -1,5 +1,6 @@
 package org.example.component;
 
+
 import org.example.model.Avatar;
 import org.example.record.AvatarRecord;
 
