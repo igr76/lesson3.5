@@ -1,15 +1,14 @@
 package org.example.service;
 
 import java.util.Collection;
-import java.util.HashMap;
 import java.util.stream.Collectors;
 
+import org.example.exeption.AvatarNotFoundExeption;
+import org.example.exeption.FacultyNotFoundExeption;
 import org.example.model.Faculty;
 import org.example.model.Student;
 import org.example.repository.FacultyRepository;
 import org.springframework.stereotype.Service;
-
-import javax.persistence.Entity;
 
 @Service
 public class FacultyService {
